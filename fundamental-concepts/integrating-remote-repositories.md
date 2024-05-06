@@ -32,7 +32,7 @@ You can visit the following link: [https://github.com/new](https://github.com/ne
 
 Then, you should see the following page:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Some key details to take note of:
 
@@ -50,7 +50,7 @@ We do not create a `README` or `.gitignore` or `LICENSE` as we have existing fil
 
 Once done, you should see the following:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Connecting your local repository with the remote repository
 
@@ -96,7 +96,7 @@ git push -u origin main
 
 Once done, you can navigate back to the Github repository and refresh the page. You will notice the following:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 If you open `hello.txt`, you'll also see that it has `Hello World` in it.
 
@@ -129,4 +129,4 @@ cd another-folder/
 cat hello.txt
 ```
 
-Regardless of the method you have used, you have now integrated a local repository with a remote one! Let's move on to the final fundamental concept: merge conflicts.
+Regardless of the method you have used, you have now integrated a local repository with a remote one! Let's move on to the final two fundamental concepts: branching and merge conflicts.

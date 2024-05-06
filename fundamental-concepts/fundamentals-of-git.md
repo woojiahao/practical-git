@@ -50,6 +50,8 @@ Unofficially, you can try thinking of a branch as an independent line of work th
 
 By default, Git starts out with a `main` branch.
 
+More information about branching is covered under [branching.md](branching.md "mention").
+
 ## Adding files to a snapshot
 
 By default, Git does not know what files it should be including in a snapshot (and this is a good thing because we don't want Git to just add every file as they may contain sensitive information).
