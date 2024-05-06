@@ -18,6 +18,12 @@ layout:
 It is very important that these steps are done correctly to ensure that you can follow along.
 {% endhint %}
 
+{% hint style="info" %}
+This guide assumes that you are using Git Bash (for Windows) or the terminal (for MacOS and Linux) as we will be using bash commands.\
+\
+If you are facing issues with running certain commands (especially on Windows), please consider using Git Bash instead.
+{% endhint %}
+
 To follow along this guide, you need to install the following:
 
 1. [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
