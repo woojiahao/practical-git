@@ -1,3 +1,5 @@
 # Table of contents
 
-* [Page](README.md)
+* [Welcome!](README.md)
+* [Setup](setup.md)
+* [Fundamentals of Git](fundamentals-of-git.md)
