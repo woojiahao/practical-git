@@ -28,7 +28,7 @@ Git relies on the core concept of a repository, which is essentially a parent fo
 
 These repositories can exist on both your local machines or remotely on an external server (or [self-hosted](https://about.gitea.com/)). This guide will look at both instances.
 
-Github is an example of a hosted remote Git server where you can create remote repositories and work on them locally (while pushing changes remotely, hence the "decentralized" nature of Git).
+Github is an example of a hosted remote Git server where you can create remote repositories and work on them locally (while pushing changes remotely, hence the "decentralized" nature of Git).1
 
 ## Introducing the \`\`commit"
 
@@ -38,9 +38,17 @@ You can think of a commit as a _snapshot_ of the instance of the codebase at a g
 
 Internally, Git tracks these commits by creating an [Directed Acyclic Graph (DAG)](https://en.wikipedia.org/wiki/Directed\_acyclic\_graph), with every commit representing a node in the graph and every edge points back to the previous commit that occurred.
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="331"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt="" width="331"><figcaption></figcaption></figure>
 
-You may notice that each commit node may have more than one incoming edge. This is where the idea of **branching** stems from. However, this will not be covered till later as it is a slightly more advanced concept.
+You may notice that each commit node may have more than one incoming edge. This is where the idea of **branching** stems from.
+
+## Branching
+
+Suppose that you were working on some changes when a bug report comes in and you have to urgently fix it. You don't know if the bug fix works immediately so you don't want to work on the bug fix in the same location where you're working on your changes. This is when branching comes in handy.
+
+Unofficially, you can try thinking of a branch as an independent line of work that stems (or branches off) from a point in development. They can be seen by the nodes `C2 <- C3 <- C5` in the previous diagram. They let you work on features or bug fixes without interfering with the current set of changes.
+
+By default, Git starts out with a `main` branch.
 
 ## Adding files to a snapshot
 

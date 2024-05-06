@@ -12,9 +12,11 @@ layout:
     visible: true
 ---
 
-# Welcome!
+# Welcome
 
 This guide aims to progressively introduce various concepts necessary to start using Git to manage your project. Before starting the guide, it is highly recommended that you give [setup.md](setup.md "mention")a read to ensure that everything you need for this guide is correctly setup.
+
+We also highly recommend that you read [fundamentals-of-git.md](fundamental-concepts/fundamentals-of-git.md "mention") to understand the terminologies that this guide uses.
 
 The following content will be covered:
 
