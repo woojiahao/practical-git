@@ -32,7 +32,7 @@ You can visit the following link: [https://github.com/new](https://github.com/ne
 
 Then, you should see the following page:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Some key details to take note of:
 
@@ -50,7 +50,7 @@ We do not create a `README` or `.gitignore` or `LICENSE` as we have existing fil
 
 Once done, you should see the following:
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Connecting your local repository with the remote repository
 
@@ -96,13 +96,17 @@ git push -u origin main
 
 Once done, you can navigate back to the Github repository and refresh the page. You will notice the following:
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 If you open `hello.txt`, you'll also see that it has `Hello World` in it.
 
-## Another way to use remote repositories
+## Cloning remote repositories
 
 What you have just accomplished is the "push" workflow where you push an existing local repository to Github. However, there may be times where you want to create a remote repository first and use it locally. This can be done via the "pull" workflow or "clone" workflow.
+
+{% hint style="info" %}
+The clone workflow is useful when you want to work off of your friend's repositories and they have already uploaded their local repository to Github.
+{% endhint %}
 
 We will be working off of the same Github repository. Suppose that you want to create a copy of the remote repository on your local machine. You can do so with the following.
 

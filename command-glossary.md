@@ -22,4 +22,6 @@ layout:
 6. `git branch`: manages the branch (local and remote) information for a local repository
 7. `git clone`: clones a remote repository locally
 8. `git push`: uploads snapshots from a local repository to a remote repository
-9. `git pull`: fetches any new snapshots from a remote repository to a local repository
+9. `git pull`: fetches any new snapshots from a remote repository to a local repository and merges them locally
+10. `git fetch`: fetches any snapshots from a remote repository to a local repository
+11. `git merge`: merges any changes from a target branch to the current source branch

@@ -30,7 +30,7 @@ These repositories can exist on both your local machines or remotely on an exter
 
 Github is an example of a hosted remote Git server where you can create remote repositories and work on them locally (while pushing changes remotely, hence the "decentralized" nature of Git).1
 
-## Introducing the \`\`commit"
+## Introducing the commit
 
 To track a codebase, Git relies on a system of **commits.**
 
@@ -38,7 +38,7 @@ You can think of a commit as a _snapshot_ of the instance of the codebase at a g
 
 Internally, Git tracks these commits by creating an [Directed Acyclic Graph (DAG)](https://en.wikipedia.org/wiki/Directed\_acyclic\_graph), with every commit representing a node in the graph and every edge points back to the previous commit that occurred.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt="" width="331"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt="" width="331"><figcaption></figcaption></figure>
 
 You may notice that each commit node may have more than one incoming edge. This is where the idea of **branching** stems from.
 
@@ -49,6 +49,14 @@ Suppose that you were working on some changes when a bug report comes in and you
 Unofficially, you can try thinking of a branch as an independent line of work that stems (or branches off) from a point in development. They can be seen by the nodes `C2 <- C3 <- C5` in the previous diagram. They let you work on features or bug fixes without interfering with the current set of changes.
 
 By default, Git starts out with a `main` branch.
+
+{% hint style="warning" %}
+If you installed Git before 2020, your default branch may be `master` instead. To change the name of your default branch, you can use the following command:
+
+```
+git config --global init.defaultBranch main
+```
+{% endhint %}
 
 More information about branching is covered under [branching.md](branching.md "mention").
 

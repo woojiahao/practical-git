@@ -16,11 +16,13 @@
 
 * [Pull Requests (PRs)](collaborative-workflows/pull-requests-prs.md)
 * [Fork and PR Workflow](collaborative-workflows/fork-and-pr-workflow.md)
-* [Branch and PR workflow](collaborative-workflows/branch-and-pr-workflow.md)
+* [Branch and PR Workflow](collaborative-workflows/branch-and-pr-workflow.md)
 
 ## Advanced Concepts
 
+* [Ignoring Files](advanced-concepts/ignoring-files.md)
 * [Advanced Git Commands](advanced-concepts/advanced-git-commands.md)
 * [Commit Message Conventions](advanced-concepts/commit-message-conventions.md)
-* [CI/CD with Github Actions](advanced-concepts/ci-cd-with-github-actions.md)
-* [Ignoring Files](advanced-concepts/ignoring-files.md)
+* [Github Specific](advanced-concepts/github-specific/README.md)
+  * [Collaborators](advanced-concepts/github-specific/collaborators.md)
+  * [CI/CD with Github Actions](advanced-concepts/github-specific/ci-cd-with-github-actions.md)

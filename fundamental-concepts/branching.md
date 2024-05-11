@@ -26,7 +26,7 @@ Notice that all commits come with a unique ID. This can make it difficult to ref
 
 `HEAD` is a special name given to the latest commit of your current branch. It is a nice syntactic sugar to allow you to easily reference the latest commit without knowing its exact commit ID.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Creating a new branch
 
